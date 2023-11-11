@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryam Saif</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #CCCCFF;
+        height: 10vh;
+        width: 100%;
+    }
+    main{
+        position: relative;
+    }
+    main #whats{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 30px;
+         right: 50px;
+        height: 70px;
+        width: 70px;
+    }
+    main #whats ion-icon{
+        font-size: 60px;
+        color: #25D366;
+    }
+    #contaner {
+        padding-top: 10vh;
+        background-color: rgba(185, 185, 185, 0.5);
+        display: flex;
+        height: 120vh;
+        padding-bottom: 20px;
+    }
+
+    #left {
+        height: 100%;
+        width: 25%;
+        padding: 10px;
+        background-color: rgba(185, 185, 185, 0.7);
+    }
+
+    #middle {
+        display: flex;
+        height: 100%;
+        width: 50%;
+        padding: 10px;
+    }
+
+    #mid_left {
+        height: 100%;
+        width: 60%;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 1px;
+    }
+
+    h2 {
+        margin-top: 15px;
+        border: 1px solid black;
+    }
+
+    li {
+        margin-left: 20px;
+    }
+
+    #mid_right {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 40%;
+        
+    }
+
+    #mid_right img {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    #right {
+        height: 100%;
+        width: 25%;
+        padding: 10px;
+        background-color: rgba(185, 185, 185, 0.7);
+    }
+    #contaner2{
+        background-color: #b2b2b2;
+    }
+
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #CCCCFF;
+        height: 20vh;
+        width: 100%;
+    }
+
+    footer ion-icon {
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Maryam Saif</h1>
+    </header>
+    <main>
+        <div id="contaner">
+            <div id="left">
+                <h1 style="border: 1px solid black">Skills</h1>
+                <ul>
+                    <li>C++</li>
+                    <li>C Sharp</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div id="middle">
+                <div id="mid_left">
+                    <h1 style="border:1px solid black ; margin-bottom: 5px;">Education History</h1>
+                    <table>
+                        <tr>
+                            <th>Institute</th>
+                            <th>Degree</th>
+                            <th>Duration</th>
+                        </tr>
+                        <tr>
+                            <td>Govt. Girls Islamia High School Daska</td>
+                            <td>Metric</td>
+                            <td>2016-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Punjab Group of Colleges Daska</td>
+                            <td>Intermediate</td>
+                            <td>2018-2020</td>
+                        </tr>
+                        <tr>
+                            <td>University of Sialkot</td>
+                            <td>BSCS</td>
+                            <td>2024-countinoue</td>
+                        </tr>
+                    </table> <!-- table end  -->
+
+                    <h2>Hobbies</h2>
+                    <ol>
+                        <li>Cooking</li>
+                        <li>Sleeping</li>
+                        <li>Gardening</li>
+                        <li>Fighting</li>
+                    </ol>
+
+                    <h2>Life Ambition</h2>
+                    <p>i wish to perform Hajj and Umrah, And want to be a software developer.</p>
+
+                    <h2>What You Did for Your Country</h2>
+                    <p>I help those people who don't reach out to others. Secondly, I take care of those animals in my
+                        neighborhood that are not pets.</p>
+
+                    <h2>What You Want to Do for Your Country</h2>
+                    <p>I will make institutes for needy and poor people and also for widow women where they can stay
+                        independently.</p>
+
+
+                </div>
+                <div id="mid_right">
+                    <img src="dp.jpg" alt="">
+                </div>
+            </div>
+            <div id="right">
+                <h2>Projects</h2>
+                <ol>
+                    <li>Scientific Calculator</li>
+                    <li>Student Managment System</li>
+                    <li>Restaurant Management System</li>
+                    <li>Old Picture Restoration</li>
+                </ol>
+            </div>
+        </div>
+
+        <div id="contaner2">
+            <audio controls width="560" style="color: green;">
+                <source src="flex_Audio.mp3" type="audio/mp3">
+            </audio>
+
+            <video width="550" controls>
+                <source src="Flexbox.mp4" type="video/mp4">
+            </video>
+
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/K74l26pE4YA?si=DAYYftg66RVb8qPp"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53941.1878534755!2d74.32358424554684!3d32.330003983480395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391edbaf7b7f8025%3A0xdf762e65d36172c0!2sDaska%2C%20Sialkot%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1699569182821!5m2!1sen!2s"
+                width="1260" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div id="whats">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+        </div>
+    </main>
+    <footer>
+        <h1>Maryam Saif</h1>
+        <p>20101002-168@uskt.edu.pk</p>
+        <div>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-github"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
